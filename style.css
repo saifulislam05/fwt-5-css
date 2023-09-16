@@ -162,3 +162,67 @@ header{
     background-size: cover;
 }
 /* ----- Hero Section End------ */
+
+/* ----- Product Categogry Section Start------ */
+.product-category{
+    background-color: #f3f3f3;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.product-category-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    overflow: hidden;
+
+}
+
+.single-product-category{
+    padding: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: transform 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    -ms-transition: transform 0.5s ease-in-out;
+    -o-transition: transform 0.5s ease-in-out;
+}
+
+.single-product-category:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+
+.single-product-category img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    margin: 10px 0;
+
+}
+.single-product-category a {
+    color: blue;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    display: inline-block;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+}
+.single-product-category a:hover {
+    color: #c7511f;
+    text-decoration: underline;
+}
+/* ----- Product Categogry Section Start------ */
