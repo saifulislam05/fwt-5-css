@@ -7,6 +7,7 @@ The "Amazon Home Page Clone" is a web page project that replicates the layout an
 ## HTML Structure
 
 ### Header Section:
+![image](https://github.com/saifulislam05/fwt-5-css/assets/73392705/548df1f6-cd49-4956-a961-9e35f6db1393)
 
 - `<header>`: The header section of the web page.
   - `<nav class="navbar">`: Navigation bar.
@@ -18,6 +19,7 @@ The "Amazon Home Page Clone" is a web page project that replicates the layout an
     - `<div class="cart">`: Shopping cart.
 
 ### Banner Section:
+![image](https://github.com/saifulislam05/fwt-5-css/assets/73392705/991a96f7-fbc6-437d-bef8-f6956e5f0db9)
 
 - `<section class="banner">`: Banner section with links.
   - `<div class="content">`: Content within the banner.
@@ -26,10 +28,12 @@ The "Amazon Home Page Clone" is a web page project that replicates the layout an
     - `<div class="deals">`: Deals link.
 
 ### Hero Section:
+![image](https://github.com/saifulislam05/fwt-5-css/assets/73392705/1d84baf9-2112-477b-9c34-0f2d272d1942)
 
-- `<section class="hero">`: Hero section (empty for now).
+- `<section class="hero">`: Hero section (empty for now) just added background image with css.
 
 ### Product Category Section:
+![image](https://github.com/saifulislam05/fwt-5-css/assets/73392705/a2727f28-25b8-42e1-990a-47f500365ade)
 
 - `<section class="product-category">`: Product category section.
   - `<div class="container product-category-wrapper">`: Wrapper for product categories.
@@ -37,6 +41,28 @@ The "Amazon Home Page Clone" is a web page project that replicates the layout an
       - `<h3 class="category-name">`: Category name.
       - `<img src="category-image.jpg" alt="Category">`: Category image.
       - `<a href="#">Shop now</a>`: Shop now link.
+
+### Footer Section:
+![image](https://github.com/saifulislam05/fwt-5-css/assets/73392705/065e8c2a-926b-464f-8f30-8ef9dbdad094)
+- `<footer>`: Footer section.
+   - `<div class="back-to-top">`: Back to top link.
+        - `<a href="#top">Back to Top</a>`: Back to top anchor link.
+  - `<div class="container">`: Container for the footer content.
+    - `<div class="footer-items-wrapper">`: Wrapper for footer items.
+      - `<div class="single-footer-item">`: Individual footer item.
+        - `<h3 class="footer-title">`: Footer item title.
+        - `<ul class="footer-links">`: List of footer links.
+          - `<li><a href="#">Link 1</a></li>`: Footer link 1.
+          - `<li><a href="#">Link 2</a></li>`: Footer link 2.
+          - `<li><a href="#">Link 3</a></li>`: Footer link 3.
+      - `<div class="single-footer-item">`: Another individual footer item.
+        - `<h3 class="footer-title">`: Footer item title.
+        - `<ul class="footer-links">`: List of footer links.
+          - `<li><a href="#">Link 4</a></li>`: Footer link 4.
+          - `<li><a href="#">Link 5</a></li>`: Footer link 5.
+          - `<li><a href="#">Link 6</a></li>`: Footer link 6...............
+     
+
 
 ## CSS Styles
 
