@@ -114,4 +114,51 @@ header{
     margin-top: 20px;
     font-weight: 500;
 }
+
 /* ------Header section End ------ */
+/* ------Banner Section Start-----*/
+.banner {
+    padding: 10px 0;
+    background: #222f3d;
+    font-size: 0.875rem;
+    color: #fff;
+}
+.banner .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .content .panel {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.panel span {
+    margin-right: 7px;
+}
+
+.deals a {
+    font-size: 0.9rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+/*------ Banner Section End---------*/
+
+/* ----- Hero Section Start------ */
+.hero {
+    height: 400px;
+    background-image: url("images/hero-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+/* ----- Hero Section End------ */
