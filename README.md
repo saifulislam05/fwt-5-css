@@ -181,4 +181,86 @@ The "Amazon Home Page Clone" is a web page project that replicates the layout an
   - `background-position: center;`: Centers the background image.
   - `background-size: cover;`: Makes the background image cover the entire section.
 
+### Product Category Section (`section.product-category`)
+- `.product-category`:
+  - `background-color: #f3f3f3;`: Sets the background color.
+  - `padding: 50px 0;`: Adds padding to the top and bottom.
+  - `display: flex;`: Arranges items in a column.
+  - `align-items: center;`: Centers items vertically.
+  - `flex-direction: column;`: Stacks items vertically.
 
+- `.product-category-wrapper`:
+  - `display: grid;`: Arranges items in a grid layout.
+  - `grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));`: Defines the grid columns.
+  - `gap: 40px;`: Sets the gap between grid items.
+  - `overflow: hidden;`: Hides overflowing content.
+
+- `.single-product-category`:
+  - `padding: 30px;`: Adds padding around each product category.
+  - `background-color: #fff;`: Sets the background color of product category boxes.
+  - `cursor: pointer;`: Changes the cursor to a pointer.
+  - `display: flex;`: Arranges items in a column.
+  - `flex-direction: column;`: Stacks items vertically.
+  - `white-space: nowrap;`: Prevents text from wrapping.
+  - `transition: transform 0.5s ease-in-out;`: Adds a smooth transformation effect.
+  - `-webkit-transition: transform 0.5s ease-in-out;`: Adds a smooth transformation effect (for Safari).
+  - `-moz-transition: transform 0.5s ease-in-out;`: Adds a smooth transformation effect (for Firefox).
+  - `-ms-transition: transform 0.5s ease-in-out;`: Adds a smooth transformation effect (for Microsoft Edge).
+  - `-o-transition: transform 0.5s ease-in-out;`: Adds a smooth transformation effect (for Opera).
+
+- `.single-product-category:hover`:
+  - `transform: scale(1.05);`: Enlarges the product category box on hover.
+  - `-webkit-transform: scale(1.05);`: Enlarges the product category box on hover (for Safari).
+  - `-moz-transform: scale(1.05);`: Enlarges the product category box on hover (for Firefox).
+  - `-ms-transform: scale(1.05);`: Enlarges the product category box on hover (for Microsoft Edge).
+  - `-o-transform: scale(1.05);`: Enlarges the product category box on hover (for Opera).
+
+- `.single-product-category img`:
+  - `width: 100%;`: Sets the width of product category images.
+  - `height: 280px;`: Sets the height of product category images.
+  - `object-fit: cover;`: Makes images cover the entire box.
+  - `margin: 10px 0;`: Adds margin around the images.
+
+- `.single-product-category a`:
+  - `color: blue;`: Sets the link color for "Shop now."
+  - `margin-top: 10px;`: Adds top margin.
+  - `font-size: 0.9rem;`: Sets the font size.
+  - `display: inline-block;`: Makes links inline-block elements.
+  - `font-weight: 500;`: Sets the font weight.
+
+- `.single-product-category a:hover`:
+  - `color: #c7511f;`: Changes the link color on hover.
+  - `text-decoration: underline;`: Adds an underline to links on hover.
+
+### Footer Section (`footer`)
+- `background: #232f3e;`: Sets the background color of the footer.
+- `color: #ffffff;`: Sets the text color of the footer.
+
+- `.back-to-top`:
+  - `display: flex;`: Arranges items in a row.
+  - `font-size: 0.875rem;`: Sets the font size for "Back to top" link.
+  - `font-weight: 600;`: Sets the font weight.
+  - `height: 60px;`: Defines the height of the link.
+  - `background: #37475a;`: Sets the background color.
+  - `justify-content: center;`: Centers content horizontally.
+  - `align-items: center;`: Centers content vertically.
+
+- `.footer-items-wrapper`:
+  - `display: flex;`: Arranges items in a row.
+  - `justify-content: space-between;`: Separates items with space.
+  - `padding: 20px 0 18px 0;`: Adds padding.
+
+- `.footer-items-wrapper ul`:
+  - `list-style: none;`: Removes list bullets.
+
+- `.footer-items-wrapper ul h3`:
+  - `margin-bottom: 10px;`: Adds bottom margin.
+  - `font-size: 1rem;`: Sets the font size for section headings.
+  - `font-weight: 500;`: Sets the font weight.
+
+- `.footer-items-wrapper ul li a`:
+  - `color: #ddd;`: Sets the text color for links in the footer.
+  - `font-size: 0.875rem;`: Sets the font size for links.
+
+- `.footer-items-wrapper ul li a:hover`:
+  - `text-decoration: underline;`: Underlines links on hover.
