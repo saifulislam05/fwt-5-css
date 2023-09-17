@@ -221,7 +221,7 @@ header{
     -ms-transition: color 0.3s ease;
     -o-transition: color 0.3s ease;
 }
-.single-product-category a:hover {
+.single-product-category:hover a {
     color: #c7511f;
     text-decoration: underline;
 }
