@@ -1,6 +1,7 @@
 # Amazon Home Page Clone W-T-5
 
-
+## Hosted Link
+You can view the project live at [View Live Project](https://saifulislam05.github.io/fwt-5-css/)
 ## Project Description
 The "Amazon Home Page Clone" is a web page project that replicates the layout and design of the Amazon homepage. It features a header section with navigation links, a search bar, and user account information. The project also includes a banner section showcasing various links, and a product category section with responsive product cards.
 
